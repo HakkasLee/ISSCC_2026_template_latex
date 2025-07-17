@@ -1,0 +1,67 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Template Copyright© Li Junlin@USTC Dig-RF Group
+%ReleaseVersion: V1.0 Date: 2025/7/17
+%To find more imformation or release: https://github.com/HakkasLee
+%Contact: lizi371@mail.ustc.edu.cn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ===============================
+%     Preamble File
+% ===============================
+
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{fontspec}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{cite}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{float}
+\usepackage{mwe}
+
+% Caption style: 8pt, bold label, colon
+\DeclareCaptionFont{mycaptionfont}{\fontsize{8pt}{10pt}\selectfont}
+\captionsetup{
+  font=mycaptionfont,
+  labelfont=bf,
+  labelformat=simple,
+  labelsep=colon,
+  justification=raggedright,
+  singlelinecheck=false,
+  skip=3pt,
+  margin=0.5em
+}
+\renewcommand{\figurename}{Fig.}
+
+% Font settings (requires font/ directory with .otf files)
+\setmainfont[Path = font/,
+  BoldFont = ArialNarrowBold.otf,
+  ItalicFont = ArialNarrowItalic.otf
+]{ArialNarrow.otf}
+
+% Page layout
+\geometry{paperwidth=23cm,paperheight=29.7cm,left=1.26cm, right=1.26cm, top=0.76cm, bottom=0.76cm}
+\setstretch{0.90}
+
+% Paragraph spacing
+\setlength{\leftskip}{0.01cm}
+\setlength{\rightskip}{0.07cm}
+\setlength{\parskip}{5.5pt}
+
+% Section formatting
+\titleformat{\section}{\fontsize{10pt}{12pt}\selectfont\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\small\itshape\selectfont}{\thesubsection}{1em}{}
+
+% Reference title style
+\renewcommand{\refname}{\normalfont\itshape References}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Template Copyright© Li Junlin@USTC Dig-RF Group
+%ReleaseVersion: V1.0 Date: 2025/7/17
+%To find more imformation or release: https://github.com/HakkasLee
+%Contact: lizi371@mail.ustc.edu.cn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,181 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Template Copyright© Li Junlin@USTC Dig-RF Group
+%ReleaseVersion: V1.0 Date: 2025/7/17
+%To find more imformation or release: https://github.com/HakkasLee
+%Contact: lizi371@mail.ustc.edu.cn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[8pt]{article}
+
+\input{preamble}
+
+\begin{document}
+
+\begin{multicols}{2}
+
+{\fontsize{10}{12}\selectfont\textbf{Title Here}}
+
+[Placeholder for Author List]
+
+[Placeholder for Affiliations]
+
+\lipsum[1-13]
+
+[Placeholder for Acknowledgments]
+
+\begin{thebibliography}{99}
+\setlength{\itemsep}{0pt}
+
+\bibitem{Giannini-isscc19}
+V. Giannini et al., `A 192-Virtual-Receiver 77/79GHz GMSK Code-Domain MIMO Radar System-on-Chip,'' 
+\textit{ISSCC}, pp. 164-166, Feb. 2019.
+
+\vspace{-0.4\baselineskip} 
+
+\bibitem{Guermandi-jssc17}
+D. Guermandi et al., 
+`A 79-GHz 2 × 2 MIMO PMCW Radar SoC in 28-nm CMOS,'' 
+\textit{IEEE JSSC}, vol. 52, no. 10,
+pp. 2613-2626, Oct 2017.
+
+\vspace{-0.4\baselineskip} 
+
+\bibitem{Naviasky-isscc21}
+E. Naviasky et al, 
+`A 71-to-86GHz Packaged 16-Element by 16-Beam Multi-User Beamforming Integrated Receiver in 28nm CMOS,''
+\textit{ISSCC}, pp. 218-220, Feb. 2021.
+
+\vspace{-0.4\baselineskip} 
+
+\bibitem{Thakkar-isscc19}
+C. Thakkar et al., 
+`A 42.2Gb/s 4.3pJ/b 60GHz Digital Transmitter with 12b/Symbol Polarization MIMO'', 
+\textit{ISSCC}, pp. 172-174, Feb. 2019.
+
+\vspace{-0.4\baselineskip}
+
+\bibitem{Vigilante-jssc18}
+M. Vigilante et al, 
+`A Coupled-RTWO-Based Subharmonic Receiver Front End for 5G E-Band Backhaul Links in 28-nm Bulk CMOS,'' 
+\textit{IEEE JSSC}, vol. 53, no. 10, 
+pp. 2927–2938, Oct. 2018.
+
+\vspace{-0.4\baselineskip} 
+
+\end{thebibliography}
+
+\end{multicols}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Second Page – 6 figures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\renewcommand{\arraystretch}{0}
+\setlength{\tabcolsep}{0pt}
+
+\noindent
+\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+\hline
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionof{figure}{caption here}\label{fig:1}
+\end{minipage}
+&
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionof{figure}{caption here}\label{fig:2}
+\end{minipage}
+\\ \hline
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionof{figure}{caption here}\label{fig:3}
+\end{minipage}
+&
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionof{figure}{caption here}\label{fig:4}
+\end{minipage}
+\\ \hline
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionof{figure}{caption here}\label{fig:5}
+\end{minipage}
+&
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionof{figure}{caption here}\label{fig:6}
+\end{minipage}
+\\ \hline
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Third Page – 4 figures only
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\renewcommand{\arraystretch}{0}
+\setlength{\tabcolsep}{0pt}
+
+\noindent
+\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+\hline
+% --- Row 1 ---
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionof{figure}{caption here}\label{fig:7}
+\end{minipage}
+&
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionsetup{labelformat=empty}
+\captionof{figure}{\textbf{Fig. S1:} (optional)}\label{fig:S1}
+\end{minipage}
+\\ \hline
+% --- Row 2 ---
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionsetup{labelformat=empty}
+\captionof{figure}{\textbf{Fig. S2:} (optional)}\label{fig:S2}
+\end{minipage}
+&
+\begin{minipage}[c][0.33\textheight][c]{\linewidth}
+\centering
+\includegraphics[width=\linewidth,height=0.7\linewidth,keepaspectratio]{example-image}
+% \vspace*{\fill}
+\captionsetup{labelformat=empty}
+\captionof{figure}{\textbf{Fig. S3:} (optional)}\label{fig:S3}
+\end{minipage}
+\\ \hline
+\end{tabular}
+
+
+
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Template Copyright© Li Junlin@USTC Dig-RF Group
+%ReleaseVersion: V1.0 Date: 2025/7/17
+%To find more imformation or release: https://github.com/HakkasLee
+%Contact: lizi371@mail.ustc.edu.cn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
