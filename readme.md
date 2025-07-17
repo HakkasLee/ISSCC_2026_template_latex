@@ -1,4 +1,4 @@
-# ISSCC Overleaf Template
+# ISSCC-2026 Latex Template
 
 **Template Copyright© Li Junlin@USTC Dig-RF Group**  
 **Release Version: V1.0**  
